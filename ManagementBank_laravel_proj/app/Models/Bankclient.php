@@ -23,9 +23,9 @@ use Illuminate\Database\Eloquent\Model;
  * @property string $Address
  * @property string $PhoneNumber
  * @property string $Email
- * @property int $BankEmployeeID
+ * @property int|null $BankEmployeeID
  * 
- * @property Bankemployee $bankemployee
+ * @property Bankemployee|null $bankemployee
  * @property Collection|Account[] $accounts
  * @property Collection|Issuedcard[] $issuedcards
  *

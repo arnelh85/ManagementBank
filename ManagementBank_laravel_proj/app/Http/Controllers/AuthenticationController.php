@@ -84,8 +84,8 @@ class AuthenticationController extends Controller {
 
         try {
                        
-            $log_emoloyee = new Bankemployee();                                                                               
-            return view('authentication.login') -> with('v_logEmployee',$log_emoloyee);
+            $log_employee = new Bankemployee();                                                                               
+            return view('authentication.login') -> with('v_logEmployee',$log_employee);
                    
         } 
         
