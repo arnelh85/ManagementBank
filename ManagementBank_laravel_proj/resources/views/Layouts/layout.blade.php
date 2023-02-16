@@ -25,9 +25,9 @@
       }
 
       .dataTables_filter>label,.dataTables_length>label,.dataTables_info {
-        color:white;
+        color: white;
       }
-      
+           
       footer.def_footer {
         width: 100%;
         height: 40px;

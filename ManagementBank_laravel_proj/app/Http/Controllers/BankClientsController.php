@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Bankclient;
 use App\Models\Account;
-use App\HelperFUnctions\AuthHelperFunctions;
+use App\HelperFunctions\AuthHelperFunctions;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
